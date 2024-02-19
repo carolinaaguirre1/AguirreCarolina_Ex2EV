@@ -1,0 +1,74 @@
+{
+    "name": "InputController",
+    "maps": [
+        {
+            "name": "mov",
+            "id": "79c3ad14-e531-454b-96c9-e3f4a2bd23c9",
+            "actions": [
+                {
+                    "name": "rodar",
+                    "type": "Button",
+                    "id": "06ab1f38-a15a-41b8-ae39-99ff50f6a312",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "rotar",
+                    "type": "Value",
+                    "id": "4b77fa9d-ada1-415f-ba03-7b5ccaa9c74a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "movyy",
+                    "type": "Value",
+                    "id": "ce473ca1-ea4a-415d-9483-b2201c14d309",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "286de130-302a-42b8-9a4b-dcd21ebbe970",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "rodar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "563a84c7-2779-4e38-8fd5-efec0f209258",
+                    "path": "<Gamepad>/leftStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "rotar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "630f7069-a39f-4549-9799-dab1eb3aa28c",
+                    "path": "<Gamepad>/leftStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movyy",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
